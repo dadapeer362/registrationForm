@@ -159,7 +159,7 @@ class RegistrationForm extends Component {
 
     return (
       <div className="registration-form-container">
-        <h1 className="form-title">Registration</h1>
+        <h1 className="form-title">User Registration</h1>
         <div className="container">
           {isFormSubmitted
             ? this.renderSubmissionReport()
